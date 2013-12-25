@@ -295,8 +295,7 @@ module.exports = function (grunt) {
             outputFile: '.tmp/bower_components/modernizr/modernizr.js',
             files: [
                 '<%= yeoman.dist %>/scripts/{,*/}*.js',
-                '<%= yeoman.dist %>/styles/{,*/}*.css',
-                '!<%= yeoman.dist %>/scripts/vendor/*'
+                '<%= yeoman.dist %>/styles/{,*/}*.css'
             ],
             uglify: false
         },
