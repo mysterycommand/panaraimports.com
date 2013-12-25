@@ -29,5 +29,4 @@ after_success:
 - git config user.email "matt@mysterycommand.com"
 - git config user.name "Matt Hayes"
 - git commit -am "GitHub Pages commit. [ci skip]"
-- git push https://${GH_OAUTH_TOKEN}@github.com/${GH_OWNER}/${GH_PROJECT_NAME} HEAD:gh-pages
-  > /dev/null 2>&1
+- git push https://${GH_OAUTH_TOKEN}@github.com/${GH_OWNER}/${GH_PROJECT_NAME} HEAD:gh-pages > /dev/null 2>&1
