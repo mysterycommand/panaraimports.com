@@ -24,7 +24,7 @@ env:
         # travis encrypt GH_OAUTH_TOKEN=XXXXXXXXXXXXXXX
         #
         # User specific env variables
-        - secure: "ZpsaVwSjCAh6I9c/zHSZoa4xzPrIGfK4GolTZjFweaMAN22kgH6sQa+/BjNZT6Z5cUWnDjqvQSf+IdmCLW92P6r+wUWv7Eov/xJC2M0iymlDqg6GeExPsKnTCjuKsxSjyNdViJtOga8YlG16gXZv9MCocLjn1/wN+Fzpd+EHjzI="
+        - secure: "b51DXmHE3MH2WuQYIiCyqlEvG8d5v50r7epSifVleP5hQ7AJ7ylq2x+1CjZnfOeaOrVrNKRqd2Gz3NTfTMjODQ9+mQPwyobLX7OaODFsRmdG08o3QA81WI4mlvnV6uL0Y76vm7rlKxUliUkJjXBLvQ4cAm2vHDgsnVUh8r8G4U8="
         - GH_OWNER: mysterycommand
         - GH_PROJECT_NAME: panaraimport.com
         # This .travis.yml file instructs travis-ci.org to build your master branch using `yeoman build`
