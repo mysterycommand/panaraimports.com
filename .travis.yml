@@ -24,9 +24,9 @@ env:
         # travis encrypt GH_OAUTH_TOKEN=XXXXXXXXXXXXXXX
         #
         # User specific env variables
-        - secure: "b51DXmHE3MH2WuQYIiCyqlEvG8d5v50r7epSifVleP5hQ7AJ7ylq2x+1CjZnfOeaOrVrNKRqd2Gz3NTfTMjODQ9+mQPwyobLX7OaODFsRmdG08o3QA81WI4mlvnV6uL0Y76vm7rlKxUliUkJjXBLvQ4cAm2vHDgsnVUh8r8G4U8="
+        - secure: "OUR9BWOsW6K6Sd3tuUwKTkxJzd8U+1Wx7mzgffMx9VV5wunAPY6RuEC/ByUzyiF6dEIsmVLFC2XgT1GONWrTpiY6FR/A2f51wNVkrgv8bfIE1OdYeYErJqLDmszpj993AZxFKjkjCJ1KoYmQcy/OSikxdo5ms+/dhjucVZEHSG4="
         - GH_OWNER: mysterycommand
-        - GH_PROJECT_NAME: panaraimport.com
+        - GH_PROJECT_NAME: panaraimports.com
         # This .travis.yml file instructs travis-ci.org to build your master branch using `yeoman build`
         # and deploy the output to your project's gh-pages branch.
 
@@ -50,6 +50,6 @@ after_success:
     - git add -f .
     - git config user.email "matt@mysterycommand.com"
     - git config user.name "Matt Hayes"
-    - git commit -am "GitHub Pages commit. [ci skip]"
+    - git commit -am "Travis build ${TRAVIS_BUILD_NUMBER}. [ci skip]"
     # Any command that using GH_OAUTH_TOKEN must pipe the output to /dev/null to not expose your oauth token
     - git push https://${GH_OAUTH_TOKEN}@github.com/${GH_OWNER}/${GH_PROJECT_NAME} HEAD:gh-pages > /dev/null 2>&1
