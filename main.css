@@ -34,41 +34,14 @@ iframe{
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-}
-
-/*.flex-container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.hero-image {
-    height: auto;
-    position: relative;
     text-align: center;
-    width: 100%;
 }
-
-.hero-image > picture,
-.hero-image > picture > img {
-    width: 100%;
-}
-
-.stretch-absolute {
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-}*/
 
 .title {
     color: #ffffff;
-    display: inline;
+    display: inline-block;
     font-family: IowanOldStyle-Bold;
     font-size: 7.5vw;
-    float: right;
     line-height: 0.9;
 }
 
@@ -80,9 +53,11 @@ iframe{
 
 .logo{
     height: auto;
-    display: inline;
     float: left;
+    display: inline-block;
     width: 26.666667%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .copyright{
