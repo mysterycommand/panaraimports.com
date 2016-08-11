@@ -3,6 +3,11 @@ a{
     color: #FFFFFF;
 }
 
+b{
+    color: #0000ff;
+    font-weight: normal;
+}
+
 footer{
     background: #000000;
     width: 100%;
