@@ -215,9 +215,7 @@ section > p {
 }
 
 @media screen and (max-width:1270px) {
-    .grid {
-        width: 610px;
-    }
+
     .grid-item {
         margin-left: auto;
         margin-right: auto;
@@ -245,24 +243,7 @@ section > p {
 }
 
 @media screen and (max-width:642px) {
-    .grid {
-        width: 300px;
-    }
     .Store_Hours {
         display: none;
     }
 }
-
-
-/*@media screen and (max-width:635px) {
-    .footer_content{
-        height: 60px;
-        max-width: 100%;
-        margin: auto;
-    }
-    .contact_table{
-        font-size: 3em;
-        display: inline;
-        float: none;
-    }
-}*/
