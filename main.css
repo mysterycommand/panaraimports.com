@@ -3,9 +3,10 @@ a {
     color: #FFFFFF;
 }
 
-b {
+b{
     color: #0000ff;
     font-weight: normal;
+    padding-left: 3em;
 }
 
 footer {
