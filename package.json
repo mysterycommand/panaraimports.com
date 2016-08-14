@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "The future home of the Panara Imports website.",
   "scripts": {
+    "clean": "npm run clean:public && npm run clean:deploy",
     "clean:public": "rm -rf public/",
     "clean:deploy": "rm -rf deploy/",
     "build": "gulp",
