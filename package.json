@@ -1,0 +1,19 @@
+{
+  "name": "panaraimports.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potpiedigital/panaraimports.com.git"
+  },
+  "author": "Matt Hayes <matt@mysterycommand.com> (http://mysterycommand.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/potpiedigital/panaraimports.com/issues"
+  },
+  "homepage": "https://github.com/potpiedigital/panaraimports.com#readme"
+}
