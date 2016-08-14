@@ -1,7 +1,7 @@
 {
   "name": "panaraimports.com",
   "version": "1.0.0",
-  "description": "The future home of the Panara Imports website.",
+  "description": "A website for Panara Imports in Marquette, MI.",
   "scripts": {
     "clean": "npm run clean:public && npm run clean:deploy",
     "clean:public": "rm -rf public/",
