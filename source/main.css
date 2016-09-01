@@ -38,7 +38,7 @@ span {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30em;
+    height: auto;
     width: 100%;
     text-align: center;
 }
@@ -63,6 +63,7 @@ span {
     color: #000000;
     width: 26.666667%;
     margin: 1em auto;
+    padding-bottom: 2em;
 }
 
 .logo {
@@ -177,7 +178,7 @@ section {
 
 section > p {
     margin: 2em auto;
-    padding-top: 5em;
+    padding: 5em 1em 0em 1em;
     width: 60%;
     font-size: 1em;
 }
