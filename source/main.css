@@ -115,10 +115,10 @@ span {
 
 .Store_Hours {
     font-size: 16px;
-    color: #FFFFFF;
+    color: #000000;
     float: right;
     margin-right: 2em;
-    margin-top: -2em;
+    margin-top: -10em;
 }
 
 .social_media {
