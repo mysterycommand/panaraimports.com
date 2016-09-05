@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: #FFFFFF;
@@ -117,8 +121,7 @@ span {
     font-size: 16px;
     color: #000000;
     float: right;
-    margin-right: 2em;
-    margin-top: -10em;
+    margin: auto 0px;
 }
 
 .social_media {
@@ -172,14 +175,16 @@ span {
 
 section {
     width: 100%;
-    height: 16em;
+    height: auto;
     text-align: left;
+    overflow: hidden;
 }
 
 section > p {
     margin: 2em auto;
-    padding: 5em 1em 0em 1em;
-    width: 60%;
+    /*padding: 5em 1em 0em 1em;
+    width: 60%;*/
+    max-width: 720px;
     font-size: 1em;
 }
 
@@ -240,11 +245,5 @@ section > p {
         text-align: center;
         margin: 0px auto;
         float: none;
-    }
-}
-
-@media screen and (max-width:642px) {
-    .Store_Hours {
-        display: none;
     }
 }
