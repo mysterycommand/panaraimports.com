@@ -8,23 +8,23 @@ a {
     font-family: Cantarell;
 }
 
-h4{
+h4 {
     font-family: Cantarell;
     text-decoration: underline;
 }
 
-p{
+p {
     font-family: Cantarell;
 }
 
 .location > p > a,
 .shopping > p > a,
-.fair-trade > p > a{
+.fair-trade > p > a {
     color: #000000;
     text-decoration: underline;
 }
 
-span{
+span {
     padding-left: 2.5em;
 }
 
@@ -60,7 +60,7 @@ span{
     height: auto;
 }
 
-.blog-post{
+.blog-post {
     float: left;
     width: 20vw;
     margin-right: 15%;
@@ -68,7 +68,7 @@ span{
     text-align: left;
 }
 
-.blog > div{
+.blog > div {
     margin: 2em 0;
     padding: 0 0 0 30%;
 }
@@ -81,10 +81,15 @@ nav {
     text-align: center;
 }
 
-nav>a {
+nav > div > a {
     padding-right: 15%;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+nav > div{
+    width: 75%;
+    margin: 0 auto;
 }
 
 .head-stone {
@@ -143,7 +148,7 @@ nav>a {
     background-size: contain;
 }
 
-.fair-trade > p{
+.fair-trade > p {
     font-size: 2.35em;
     width: 35vw;
     float: left;
@@ -151,7 +156,7 @@ nav>a {
     padding: 1em 0 1em 5em;
 }
 
-.fair-trade > img{
+.fair-trade > img {
     margin: 22% 0 10% 0;
     width: 25%;
     height: auto;
@@ -160,7 +165,7 @@ nav>a {
 .title {
     color: #ffffff;
     font-family: ZombieChecklist;
-    font-size: 7.5vw;
+    font-size: 10.5vw;
     line-height: 0.9;
     margin-top: 0.05em;
     margin-bottom: 0.25em;
