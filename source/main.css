@@ -17,9 +17,7 @@ p {
     font-family: Cantarell;
 }
 
-.location > p > a,
-.shopping > p > a,
-.fair-trade > p > a {
+section > p > a {
     color: #000000;
     text-decoration: underline;
 }
@@ -35,7 +33,7 @@ span {
     font-size: 4vw;
     width: auto;
     margin: 0 auto;
-    padding: 1em 0 1em 3em;
+    padding: 1em 0 1em 3.25em;
 }
 
 .location > h3,
@@ -44,9 +42,72 @@ span {
     width: 30vw;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0 0 1em 8em;
+    padding: 0 0 1em 13%;
     font-weight: normal;
     font-family: Cantarell;
+}
+
+div > img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.alpaca_sweater {
+    margin: 6% 0 5% 25%;
+}
+
+.relaxed{
+    float: right;
+    margin-top: -8%;
+    margin-right: 14%;
+}
+
+.winter-surf {
+    float: right;
+    margin-top: -10em;
+    padding-right: 8%;
+}
+
+.winter-surf > p,
+.relaxed > p,
+.alpaca_sweater > p,
+.black-jacket > p,
+.panara-shirt > p,
+.oils > p {
+    margin: 1% 0;
+}
+
+.overlay {
+    z-index: 2;
+    float: right;
+    display: block;
+    position: relative;
+    margin-right: 25%;
+    margin-top: -5%
+}
+
+.panara-shirt {
+    float: right;
+    margin-top: -20%;
+    margin-right: -37%;
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.black-jacket{
+    margin: 3% 0 5% 30%;
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.oils{
+    float: right;
+    margin-top: -20%;
+    margin-right: 8%;
+    position: relative;
+    display: block;
+    z-index: 1;
 }
 
 .social-icon {
@@ -60,10 +121,18 @@ span {
     height: auto;
 }
 
-.blog-post {
+.blog-post-1 {
     float: left;
     width: 20vw;
     margin-right: 15%;
+    display: inline;
+    text-align: left;
+}
+
+.blog-post-2 {
+    float: left;
+    width: 20vw;
+    margin-left: 9%;
     display: inline;
     text-align: left;
 }
@@ -118,7 +187,7 @@ nav > div{
     font-size: 1vw;
     width: 40vw;
     margin-top: 0;
-    padding: 0 0 1em 12em;
+    padding: 0 0 1em 13em;
 }
 
 .shopping {
@@ -184,6 +253,10 @@ nav > div{
     width: 29%;
     margin: 1em auto 0 auto;
     padding-bottom: 2em;
+}
+
+.email-phone > a {
+    color: #ffffff;
 }
 
 .logo {
