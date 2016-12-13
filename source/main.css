@@ -8,6 +8,15 @@ a {
     font-family: Cantarell;
 }
 
+div > a{
+    color: #ffffff;
+}
+
+.blog-post-1 > a,
+.blog-post-2 > a{
+    color: #000000;
+}
+
 h4 {
     font-family: Cantarell;
     text-decoration: underline;
@@ -33,7 +42,7 @@ span {
     font-size: 4vw;
     width: auto;
     margin: 0 auto;
-    padding: 1em 0 1em 3.25em;
+    padding: 1em 0 0.5em 3.25em;
 }
 
 .location > h3,
@@ -44,6 +53,7 @@ span {
     margin-bottom: 0;
     padding: 0 0 1em 13%;
     font-weight: normal;
+    font-size: 1.5vw;
     font-family: Cantarell;
 }
 
@@ -55,10 +65,21 @@ div > img {
     margin: 6% 0 5% 25%;
 }
 
+.alpaca_sweater >img,
+.relaxed > img,
+.winter-surf > img,
+.oils > img,
+.panara-shirt > img,
+.blog-post-1 > img,
+.blog-post-2 > img{
+    width: auto;
+    height: 15vw;
+}
+
 .relaxed{
     float: right;
     margin-top: -8%;
-    margin-right: 14%;
+    margin-right: 8%;
 }
 
 .winter-surf {
@@ -72,48 +93,49 @@ div > img {
 .alpaca_sweater > p,
 .black-jacket > p,
 .panara-shirt > p,
-.oils > p {
+.oils > p,
+.blog-post-1 > p,
+.blog-post-2 > p{
     margin: 1% 0;
-}
-
-.overlay {
-    z-index: 2;
-    float: right;
-    display: block;
-    position: relative;
-    margin-right: 25%;
-    margin-top: -5%
+    font-size: 1.25vw;
 }
 
 .panara-shirt {
     float: right;
     margin-top: -20%;
-    margin-right: -37%;
-    position: relative;
+    margin-right: 8%;
     display: block;
-    z-index: 1;
 }
 
 .black-jacket{
-    margin: 3% 0 5% 30%;
+    margin: -6% 0 5% 28%;
     position: relative;
     display: block;
-    z-index: 1;
+}
+
+.black-jacket > img{
+    width: auto;
+    height: 25vw;
 }
 
 .oils{
     float: right;
-    margin-top: -20%;
+    margin-top: -10%;
     margin-right: 8%;
     position: relative;
     display: block;
-    z-index: 1;
 }
 
-.social-icon {
-    height: 1em;
+.social-icon{
+    height: 2vw;
     width: auto;
-    padding-right: 1%;
+    padding-right: 5%;
+}
+
+.social-icon-1 {
+    height: 2vw;
+    width: auto;
+    padding-right: 0;
 }
 
 .img-divider {
@@ -124,7 +146,7 @@ div > img {
 .blog-post-1 {
     float: left;
     width: 20vw;
-    margin-right: 15%;
+    margin-right: 25%;
     display: inline;
     text-align: left;
 }
@@ -132,7 +154,6 @@ div > img {
 .blog-post-2 {
     float: left;
     width: 20vw;
-    margin-left: 9%;
     display: inline;
     text-align: left;
 }
@@ -154,6 +175,11 @@ nav > div > a {
     padding-right: 15%;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-size: 2vw;
+}
+
+nav > div > a:last-child {
+    padding-right: 0;
 }
 
 nav > div{
@@ -172,7 +198,7 @@ nav > div{
 }
 
 .location {
-    height: 900px;
+    height: 75vw;
     width: 100%;
     background-image: url(./assets/section-1.png);
     background-position: left;
@@ -182,8 +208,7 @@ nav > div{
 
 .location > p,
 .shopping > p,
-.blog > p,
-.fair-trade > p {
+.blog > p {
     font-size: 1vw;
     width: 40vw;
     margin-top: 0;
@@ -191,7 +216,7 @@ nav > div{
 }
 
 .shopping {
-    height: 900px;
+    height: 75vw;
     width: 100%;
     background-image: url(./assets/section-2.png);
     background-position: left;
@@ -200,7 +225,7 @@ nav > div{
 }
 
 .blog {
-    height: 900px;
+    height: 75vw;
     width: 100%;
     background-image: url(./assets/section-3.png);
     background-position: left;
@@ -209,7 +234,7 @@ nav > div{
 }
 
 .fair-trade {
-    height: 900px;
+    height: 75vw;
     width: 100%;
     background-image: url(./assets/section-4.png);
     background-position: left;
@@ -218,7 +243,7 @@ nav > div{
 }
 
 .fair-trade > p {
-    font-size: 2.35em;
+    font-size: 3vw;
     width: 35vw;
     float: left;
     margin: 22% 10% 0 0;
@@ -250,6 +275,7 @@ nav > div{
 .email-phone {
     color: #ffffff;
     font-family: Cantarell;
+    font-size: 1.25vw;
     width: 29%;
     margin: 1em auto 0 auto;
     padding-bottom: 2em;
@@ -291,7 +317,7 @@ footer > div > img {
 footer > div > p {
     font-family: Cantarell;
     font-size: 1vw;
-    width: 220px;
+    width: 15em;
     margin: 2% auto;
     text-align: left;
 }
@@ -305,4 +331,24 @@ p > img {
     width: 1em;
     height: auto;
     margin-top: 3%;
+}
+
+@media (max-width: 400px){
+    footer > div > p{
+        display: none;
+    }
+    .location > h3,
+    .shopping > h3,
+    .blog > h3{
+        width: 85%;
+        font-size: 2.5vw;
+    }
+    .blog-post-1 > p,
+    .blog-post-2 > p{
+        font-size: 2vw;
+    }
+    .blog-post-1 > a,
+    .blog-post-2 > a{
+        font-size: 2.5vw;
+    }
 }
