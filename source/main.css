@@ -15,6 +15,7 @@ div > a{
 .blog-post-1 > a,
 .blog-post-2 > a{
     color: #000000;
+    font-size: 1.5vw;
 }
 
 h4 {
@@ -84,7 +85,7 @@ div > img {
 
 .winter-surf {
     float: right;
-    margin-top: -10em;
+    margin-top: -21%;
     padding-right: 8%;
 }
 
@@ -100,10 +101,14 @@ div > img {
     font-size: 1.25vw;
 }
 
+.panara-shirt > p{
+    text-align: right;
+}
+
 .panara-shirt {
     float: right;
-    margin-top: -20%;
-    margin-right: 8%;
+    margin-top: -21%;
+    margin-right: 5%;
     display: block;
 }
 
@@ -121,7 +126,7 @@ div > img {
 .oils{
     float: right;
     margin-top: -10%;
-    margin-right: 8%;
+    margin-right: 5%;
     position: relative;
     display: block;
 }
@@ -338,10 +343,23 @@ p > img {
         display: none;
     }
     .location > h3,
-    .shopping > h3,
+    .shopping > h3{
+        width: 50%;
+        font-size: 2.5vw;
+    }
     .blog > h3{
         width: 85%;
         font-size: 2.5vw;
+    }
+    .blog-post-1,
+    .blog-post-2{
+        width: 30vw;
+    }
+    .blog-post-1{
+        margin-right: 10%;
+    }
+    .blog > div{
+        padding-left: 25%;
     }
     .blog-post-1 > p,
     .blog-post-2 > p{
