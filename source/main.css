@@ -97,7 +97,7 @@ div > img {
 .oils > p,
 .blog-post-1 > p,
 .blog-post-2 > p{
-    margin: 1% 0;
+    margin: 0.8% 0;
     font-size: 1.25vw;
 }
 
@@ -125,7 +125,7 @@ div > img {
 
 .oils{
     float: right;
-    margin-top: -10%;
+    margin-top: -4%;
     margin-right: 5%;
     position: relative;
     display: block;
