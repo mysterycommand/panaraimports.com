@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('./assets/Cantarell/Cantarell-Regular.ttf') format('woff2'), url('./assets/Cantarell/Cantarell-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('./assets/ZombieChecklistV2.ttf') format('woff2'), url('./assets/ZombieChecklistV2.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
 }
