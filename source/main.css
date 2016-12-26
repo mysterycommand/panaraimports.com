@@ -42,6 +42,12 @@ h4 {
     text-decoration: underline;
 }
 
+h2 {
+    font-size: 1.5vw;
+    font-family: cantarellregular;
+    margin: 0;
+}
+
 p {
     font-family: cantarellregular;
 }
@@ -120,7 +126,8 @@ div > img {
     font-size: 1.25vw;
 }
 
-.panara-shirt > p {
+.panara-shirt > p,
+.panara-shirt > h2 {
     text-align: right;
 }
 
