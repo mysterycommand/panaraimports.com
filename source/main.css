@@ -1,15 +1,20 @@
 @font-face {
-    font-family: 'oswaldregular';
-    src: url('./assets/Cantarell/Cantarell-Regular.ttf') format('woff2'), url('./assets/Cantarell/Cantarell-Regular.ttf') format('ttf');
+    font-family: 'zombiechecklistregular';
+    src: url('zombiechecklistv2-webfont.woff2') format('woff2'),
+         url('zombiechecklistv2-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
+
 @font-face {
-    font-family: 'open_sansregular';
-    src: url('./assets/ZombieChecklistV2.ttf') format('woff2'), url('./assets/ZombieChecklistV2.ttf') format('ttf');
+    font-family: 'cantarellregular';
+    src: url('cantarell-regular-webfont.woff2') format('woff2'),
+         url('cantarell-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 body {
@@ -19,7 +24,7 @@ body {
 a {
     text-decoration: none;
     color: #FFFFFF;
-    font-family: Cantarell;
+    font-family: cantarellregular;
 }
 
 div > a {
@@ -33,12 +38,12 @@ div > a {
 }
 
 h4 {
-    font-family: Cantarell;
+    font-family: cantarellregular;
     text-decoration: underline;
 }
 
 p {
-    font-family: Cantarell;
+    font-family: cantarellregular;
 }
 
 section > p > a {
@@ -53,7 +58,7 @@ span {
 .location > h1,
 .shopping > h1,
 .blog > h1 {
-    font-family: ZombieChecklist;
+    font-family: zombiechecklistregular;
     font-size: 4vw;
     width: auto;
     margin: 0 auto;
@@ -69,7 +74,7 @@ span {
     padding: 0 0 1em 13%;
     font-weight: normal;
     font-size: 1.5vw;
-    font-family: Cantarell;
+    font-family: cantarellregular;
 }
 
 div > img {
@@ -277,7 +282,7 @@ nav > div {
 
 .title {
     color: #ffffff;
-    font-family: ZombieChecklist;
+    font-family: zombiechecklistregular;
     font-size: 10.5vw;
     line-height: 0.9;
     margin-top: 0.05em;
@@ -286,14 +291,14 @@ nav > div {
 
 .sub-title {
     color: #ffffff;
-    font-family: Cantarell;
+    font-family: cantarellregular;
     font-size: 1.75vw;
     line-height: 0.9;
 }
 
 .email-phone {
     color: #ffffff;
-    font-family: Cantarell;
+    font-family: cantarellregular;
     font-size: 1.25vw;
     width: 29%;
     margin: 1em auto 0 auto;
@@ -316,7 +321,7 @@ footer {
 footer > h1 {
     margin: 5%;
     font-size: 4vw;
-    font-family: ZombieChecklist;
+    font-family: zombiechecklistregular;
 }
 
 footer > div {
@@ -334,7 +339,7 @@ footer > div > img {
 }
 
 footer > div > p {
-    font-family: Cantarell;
+    font-family: cantarellregular;
     font-size: 1vw;
     width: 15em;
     margin: 2% auto;
@@ -343,7 +348,7 @@ footer > div > p {
 
 footer > p {
     padding: 3%;
-    font-family: Cantarell;
+    font-family: cantarellregular;
 }
 
 p > img {
