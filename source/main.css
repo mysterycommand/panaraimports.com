@@ -338,7 +338,7 @@ p > img {
     margin-top: 3%;
 }
 
-@media (max-width: 400px){
+@media (max-width: 415px){
     footer > div > p{
         display: none;
     }
