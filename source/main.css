@@ -282,8 +282,9 @@ nav > div {
 }
 
 .fair-trade > img {
+    /*border-radius: 5%;*/
     margin: 22% 0 10% 0;
-    width: 25%;
+    width: 28%;
     height: auto;
 }
 
@@ -367,6 +368,20 @@ p > img {
 @media (max-width: 415px) {
     footer > div > p {
         display: none;
+    }
+
+    .sub-title{
+        font-size: 2.5vw;
+    }
+
+    .email-phone{
+        font-size: 2vw;
+        width: 100%;
+    }
+
+    .social-icon{
+        width: 1em;
+        height: auto;
     }
 
     .location > h3,
