@@ -231,7 +231,7 @@ nav > div {
 .location {
     height: 75vw;
     width: 100%;
-    background-image: url(./assets/section-1.png);
+    /*background-image: url(./assets/section-1.png);*/
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -249,7 +249,7 @@ nav > div {
 .shopping {
     height: 75vw;
     width: 100%;
-    background-image: url(./assets/section-2.png);
+    /*background-image: url(./assets/section-2.png);*/
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -258,7 +258,7 @@ nav > div {
 .blog {
     height: 75vw;
     width: 100%;
-    background-image: url(./assets/section-3.png);
+    /*background-image: url(./assets/section-3.png);*/
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -267,7 +267,7 @@ nav > div {
 .fair-trade {
     height: 75vw;
     width: 100%;
-    background-image: url(./assets/section-4.png);
+    /*background-image: url(./assets/section-4.png);*/
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
