@@ -8,12 +8,12 @@ a {
     font-family: Cantarell;
 }
 
-div > a{
+div > a {
     color: #ffffff;
 }
 
 .blog-post-1 > a,
-.blog-post-2 > a{
+.blog-post-2 > a {
     color: #000000;
     font-size: 1.5vw;
 }
@@ -72,12 +72,12 @@ div > img {
 .oils > img,
 .panara-shirt > img,
 .blog-post-1 > img,
-.blog-post-2 > img{
+.blog-post-2 > img {
     width: auto;
     height: 15vw;
 }
 
-.relaxed{
+.relaxed {
     float: right;
     margin-top: -8%;
     margin-right: 8%;
@@ -96,12 +96,12 @@ div > img {
 .panara-shirt > p,
 .oils > p,
 .blog-post-1 > p,
-.blog-post-2 > p{
+.blog-post-2 > p {
     margin: 0.8% 0;
     font-size: 1.25vw;
 }
 
-.panara-shirt > p{
+.panara-shirt > p {
     text-align: right;
 }
 
@@ -112,18 +112,18 @@ div > img {
     display: block;
 }
 
-.black-jacket{
+.black-jacket {
     margin: -6% 0 5% 28%;
     position: relative;
     display: block;
 }
 
-.black-jacket > img{
+.black-jacket > img {
     width: auto;
     height: 25vw;
 }
 
-.oils{
+.oils {
     float: right;
     margin-top: -4%;
     margin-right: 5%;
@@ -131,7 +131,7 @@ div > img {
     display: block;
 }
 
-.social-icon{
+.social-icon {
     height: 2vw;
     width: auto;
     padding-right: 5%;
@@ -187,7 +187,7 @@ nav > div > a:last-child {
     padding-right: 0;
 }
 
-nav > div{
+nav > div {
     width: 75%;
     margin: 0 auto;
 }
@@ -338,35 +338,42 @@ p > img {
     margin-top: 3%;
 }
 
-@media (max-width: 415px){
-    footer > div > p{
+@media (max-width: 415px) {
+    footer > div > p {
         display: none;
     }
+
     .location > h3,
-    .shopping > h3{
+    .shopping > h3 {
         width: 50%;
         font-size: 2.5vw;
     }
-    .blog > h3{
+
+    .blog > h3 {
         width: 85%;
         font-size: 2.5vw;
     }
+
     .blog-post-1,
-    .blog-post-2{
+    .blog-post-2 {
         width: 30vw;
     }
-    .blog-post-1{
+
+    .blog-post-1 {
         margin-right: 10%;
     }
-    .blog > div{
+
+    .blog > div {
         padding-left: 25%;
     }
+
     .blog-post-1 > p,
-    .blog-post-2 > p{
+    .blog-post-2 > p {
         font-size: 2vw;
     }
+
     .blog-post-1 > a,
-    .blog-post-2 > a{
+    .blog-post-2 > a {
         font-size: 2.5vw;
     }
 }
