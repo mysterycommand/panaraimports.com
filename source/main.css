@@ -379,12 +379,51 @@ p > img {
 @media (max-width: 631px){
 
     .location,
-    .shopping {
-        height: 60vw;
+    .shopping,
+    .blog,
+    .fair-trade {
+        height: 65vw;
     }
+
+    .location > p > span,
+    section > p > a {
+        font-size: 1.5vw;
+    }
+
+    .fair-trade > p > a {
+        font-size: 3vw;
+    }
+
     .location > h3,
-    .shopping > h3 {
-        width: 100%;
+    .shopping > h3,
+    .blog > h3 {
+        width: 80%;
+        font-size: 2vw;
+    }
+
+    .winter-surf > p,
+    .relaxed > p,
+    .alpaca_sweater > p,
+    .black-jacket > p,
+    .panara-shirt > p,
+    .oils > p {
+        display: none;
+    }
+
+    .blog-post-1 > p,
+    .blog-post-2 > p {
+        font-size: 1.5vw;
+    }
+
+    .winter-surf > h2,
+    .relaxed > h2,
+    .alpaca_sweater > h2,
+    .black-jacket > h2,
+    .panara-shirt > h2,
+    .oils > h2,
+    .blog-post-1 > h2,
+    .blog-post-2 > h2 {
+        font-size: 1.5vw;
     }
 
     footer > div > p {
@@ -413,7 +452,7 @@ p > img {
         float: none;
         text-align: center;
         width: auto;
-        margin: 0 0 0 0;
+        margin: 0;
         padding: 3%;
     }
 
@@ -423,6 +462,11 @@ p > img {
 }
 
 @media (max-width: 415px) {
+
+    .location,
+    .shopping {
+        height: 75vw;
+    }
 
     .sub-title{
         font-size: 2.5vw;
@@ -468,8 +512,15 @@ p > img {
         font-size: 2vw;
     }
 
-    .blog-post-1 > a,
+    /*.blog-post-1 > a,
     .blog-post-2 > a {
         font-size: 2.5vw;
+    }*/
+
+    .location > h3,
+    .shopping > h3,
+    .blog > h3 {
+        width: 80%;
+        font-size: 2vw;
     }
 }
