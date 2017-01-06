@@ -83,7 +83,8 @@ span {
     font-family: cantarellregular;
 }
 
-div > img {
+div > img,
+.fair-trade-hat {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -124,11 +125,6 @@ div > img {
 .blog-post-2 > p {
     margin: 0.8% 0;
     font-size: 1.25vw;
-}
-
-.panara-shirt > p,
-.panara-shirt > h2 {
-    text-align: right;
 }
 
 .panara-shirt {
@@ -365,10 +361,68 @@ p > img {
     margin-top: 3%;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 865px) {
+    .sub-title{
+        font-size: 2.5vw;
+    }
+    .email-phone{
+        font-size: 2vw;
+        width: 100%;
+    }
+
+    .social-icon{
+        width: 3%;
+        height: auto;
+    }
+}
+
+@media (max-width: 631px){
+
+    .location,
+    .shopping {
+        height: 60vw;
+    }
+    .location > h3,
+    .shopping > h3 {
+        width: 100%;
+    }
+
     footer > div > p {
         display: none;
     }
+
+    .winter-surf,
+    .alpaca_sweater,
+    .relaxed {
+        display: inline-block;
+        float: none;
+        text-align: center;
+        width: auto;
+        margin: 2em 0 0 0;
+        padding: 3%;
+    }
+
+    .winter-surf{
+        padding-left: 6%;
+    }
+
+    .panara-shirt,
+    .black-jacket,
+    .oils {
+        display: inline-block;
+        float: none;
+        text-align: center;
+        width: auto;
+        margin: 0 0 0 0;
+        padding: 3%;
+    }
+
+    .panara-shirt{
+        padding-left: 6%;
+    }
+}
+
+@media (max-width: 415px) {
 
     .sub-title{
         font-size: 2.5vw;
@@ -379,7 +433,8 @@ p > img {
         width: 100%;
     }
 
-    .social-icon{
+    .social-icon,
+    .social-icon-1{
         width: 1em;
         height: auto;
     }
