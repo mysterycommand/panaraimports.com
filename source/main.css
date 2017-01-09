@@ -410,6 +410,18 @@ p > img {
         display: none;
     }
 
+    .location > p {
+        width: 100%;
+    }
+
+    .location > p > span{
+        font-size: 2vw;
+    }
+
+    section > p > a{
+        font-size: 2vw;
+    }
+
     .blog-post-1 > p,
     .blog-post-2 > p {
         font-size: 1.5vw;
@@ -423,7 +435,7 @@ p > img {
     .oils > h2,
     .blog-post-1 > h2,
     .blog-post-2 > h2 {
-        font-size: 1.5vw;
+        font-size: 1.75vw;
     }
 
     footer > div > p {
@@ -438,7 +450,7 @@ p > img {
         text-align: center;
         width: auto;
         margin: 2em 0 0 0;
-        padding: 3%;
+        padding: 2%;
     }
 
     .winter-surf{
@@ -453,12 +465,35 @@ p > img {
         text-align: center;
         width: auto;
         margin: 0;
-        padding: 3%;
+        padding: 2%;
     }
 
     .panara-shirt{
         padding-left: 6%;
     }
+
+    .blog > div {
+    margin: 2em 0;
+    padding: 0 0 0 14%;
+    }
+
+    .blog-post-1 > p,
+    .blog-post-2 > p {
+        display: none;
+    }
+
+    .blog-post-1 > img,
+    .blog-post-2 > img {
+        width: 8em;
+        height: auto;
+    }
+
+    .blog-post-1 > a,
+    .blog-post-2 > a {
+        font-size: 2vw;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 415px) {
@@ -512,10 +547,10 @@ p > img {
         font-size: 2vw;
     }
 
-    /*.blog-post-1 > a,
-    .blog-post-2 > a {
-        font-size: 2.5vw;
-    }*/
+    .blog > div {
+    margin: 2em 0;
+    padding: 0 0 0 14%;
+    }
 
     .location > h3,
     .shopping > h3,
