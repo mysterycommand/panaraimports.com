@@ -1,23 +1,26 @@
 @font-face {
     font-family: 'zombiechecklistregular';
     src: url('./assets/webfontkit-Zombie/zombiechecklistv2-webfont.woff2') format('woff2'),
-         url('zombiechecklistv2-webfont.woff') format('woff');
+    url('zombiechecklistv2-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'cantarellregular';
     src: url('./assets/webfontkit-Cantarell/cantarell-regular-webfont.woff2') format('woff2'),
-         url('cantarell-regular-webfont.woff') format('woff');
+    url('cantarell-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
+html,
 body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
     margin: 0;
 }
 
@@ -27,19 +30,29 @@ a {
     font-family: cantarellregular;
 }
 
-div > a {
-    color: #ffffff;
-}
-
-.blog-post-1 > a,
-.blog-post-2 > a {
-    color: #000000;
-    font-size: 1.5vw;
-}
-
-h4 {
+p {
     font-family: cantarellregular;
-    text-decoration: underline;
+    margin-top: 0;
+}
+
+img {
+    width: auto;
+    height: 15vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section > p {
+    font-size: 1vw;
+    width: 40vw;
+    padding: 0 0 1em 13em;
+}
+
+h1 {
+    font-family: zombiechecklistregular;
+    font-size: 4vw;
+    width: auto;
+    margin: 0 auto;
+    padding: 1em 0 0.5em 3.25em;
 }
 
 h2 {
@@ -48,8 +61,24 @@ h2 {
     margin-bottom: 0;
 }
 
-p {
+h3 {
+    width: 30vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 0 1em 13%;
+    font-weight: normal;
+    font-size: 1.5vw;
     font-family: cantarellregular;
+}
+
+h4 {
+    font-family: cantarellregular;
+    text-decoration: underline;
+}
+
+h5 {
+    font-family: zombiechecklistregular;
+    font-size: 2.5vw;
 }
 
 section > p > a {
@@ -61,46 +90,94 @@ span {
     padding-left: 2.5em;
 }
 
-.location > h1,
-.shopping > h1,
-.blog > h1 {
-    font-family: zombiechecklistregular;
-    font-size: 4vw;
-    width: auto;
-    margin: 0 auto;
-    padding: 1em 0 0.5em 3.25em;
+header {
+    background-image: url(./assets/beach_scape.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    text-align: center;
 }
 
-.location > h3,
-.shopping > h3,
-.blog > h3 {
-    width: 30vw;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0 0 1em 13%;
-    font-weight: normal;
-    font-size: 1.5vw;
+li > img {
+    height: 2vw;
+    width: auto;
+    padding-right: 5%;
+}
+
+li {
+    display: inline-block;
+    color: #ffffff;
+    padding-right: 1em;
+    padding-bottom: 1em;
     font-family: cantarellregular;
 }
 
-div > img,
-.fair-trade-hat {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+li:last-child {
+    padding-right: 0;
+}
+
+.img-divider {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    color: #ffffff;
+    font-family: zombiechecklistregular;
+    font-size: 10.5vw;
+    line-height: 0.9;
+    margin-top: 0.05em;
+    margin-bottom: 0.25em;
+}
+
+.sub-title {
+    color: #ffffff;
+    font-family: cantarellregular;
+    margin: 0 auto;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1.75vw;
+    line-height: 0.9;
+    width: 100%;
+}
+
+.logo {
+    width: 26.666667%;
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+nav {
+    background-color: rgba(000, 0, 0, 0.4);
+    width: 100%;
+    height: auto;
+    padding: 1% 0;
+    text-align: center;
+}
+
+nav > ul {
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav > ul > li {
+    color: #ffffff;
+    padding-right: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 2vw;
+}
+
+section {
+    height: 75vw;
+    width: 100%;
 }
 
 .alpaca_sweater {
     margin: 6% 0 5% 25%;
-}
-
-.alpaca_sweater >img,
-.relaxed > img,
-.winter-surf > img,
-.oils > img,
-.panara-shirt > img,
-.blog-post-1 > img,
-.blog-post-2 > img {
-    width: auto;
-    height: 15vw;
+    padding: 0;
 }
 
 .relaxed {
@@ -112,19 +189,7 @@ div > img,
 .winter-surf {
     float: right;
     margin-top: -21%;
-    padding-right: 8%;
-}
-
-.winter-surf > p,
-.relaxed > p,
-.alpaca_sweater > p,
-.black-jacket > p,
-.panara-shirt > p,
-.oils > p,
-.blog-post-1 > p,
-.blog-post-2 > p {
-    margin: 0.8% 0;
-    font-size: 1.25vw;
+    margin-right: 8%;
 }
 
 .panara-shirt {
@@ -138,6 +203,7 @@ div > img,
     margin: -6% 0 5% 28%;
     position: relative;
     display: block;
+    padding: 0;
 }
 
 .black-jacket > img {
@@ -153,21 +219,9 @@ div > img,
     display: block;
 }
 
-.social-icon {
-    height: 2vw;
-    width: auto;
-    padding-right: 5%;
-}
-
-.social-icon-1 {
-    height: 2vw;
-    width: auto;
-    padding-right: 0;
-}
-
-.img-divider {
-    width: 100%;
-    height: auto;
+section > div {
+    margin: 2em 0;
+    padding: 0 0 0 25%;
 }
 
 .blog-post-1 {
@@ -185,91 +239,13 @@ div > img,
     text-align: left;
 }
 
-.blog > div {
-    margin: 2em 0;
-    padding: 0 0 0 30%;
+.blog-post-1 > h4 > a,
+.blog-post-2 > h4 > a {
+    color: #000000;
+    font-size: 1.5vw;
 }
 
-nav {
-    background-color: rgba(000, 0, 0, 0.4);
-    width: 100%;
-    height: auto;
-    padding: 1% 0;
-    text-align: center;
-}
-
-nav > div > a {
-    padding-right: 15%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-size: 2vw;
-}
-
-nav > div > a:last-child {
-    padding-right: 0;
-}
-
-nav > div {
-    width: 75%;
-    margin: 0 auto;
-}
-
-.head-stone {
-    background-image: url(./assets/beach_scape.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-    width: 100%;
-    text-align: center;
-}
-
-.location {
-    height: 75vw;
-    width: 100%;
-    /*background-image: url(./assets/section-1.png);*/
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.location > p,
-.shopping > p,
-.blog > p {
-    font-size: 1vw;
-    width: 40vw;
-    margin-top: 0;
-    padding: 0 0 1em 13em;
-}
-
-.shopping {
-    height: 75vw;
-    width: 100%;
-    /*background-image: url(./assets/section-2.png);*/
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.blog {
-    height: 75vw;
-    width: 100%;
-    /*background-image: url(./assets/section-3.png);*/
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.fair-trade {
-    height: 75vw;
-    width: 100%;
-    /*background-image: url(./assets/section-4.png);*/
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.fair-trade > p {
+#fair-trade > p {
     font-size: 3vw;
     width: 35vw;
     float: left;
@@ -277,55 +253,14 @@ nav > div {
     padding: 0 0 1em 5em;
 }
 
-.fair-trade > img {
-    /*border-radius: 5%;*/
+#fair-trade > img {
     margin: 22% 0 10% 0;
     width: 28%;
     height: auto;
 }
 
-.title {
-    color: #ffffff;
-    font-family: zombiechecklistregular;
-    font-size: 10.5vw;
-    line-height: 0.9;
-    margin-top: 0.05em;
-    margin-bottom: 0.25em;
-}
-
-.sub-title {
-    color: #ffffff;
-    font-family: cantarellregular;
-    font-size: 1.75vw;
-    line-height: 0.9;
-}
-
-.email-phone {
-    color: #ffffff;
-    font-family: cantarellregular;
-    font-size: 1.25vw;
-    width: 29%;
-    margin: 1em auto 0 auto;
-    padding-bottom: 2em;
-}
-
-.email-phone > a {
-    color: #ffffff;
-}
-
-.logo {
-    width: 26.666667%;
-    margin: 0 auto;
-}
-
 footer {
     text-align: center;
-}
-
-footer > h1 {
-    margin: 5%;
-    font-size: 4vw;
-    font-family: zombiechecklistregular;
 }
 
 footer > div {
@@ -339,7 +274,6 @@ footer > div > img {
     height: 7em;
     width: auto;
     margin: 0 auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer > div > p {
@@ -350,57 +284,40 @@ footer > div > p {
     text-align: left;
 }
 
-footer > p {
-    padding: 3%;
-    font-family: cantarellregular;
-}
-
-p > img {
-    width: 1em;
-    height: auto;
-    margin-top: 3%;
-}
-
 @media (max-width: 865px) {
-    .sub-title{
+    .sub-title {
         font-size: 2.5vw;
     }
-    .email-phone{
+    .email-phone {
         font-size: 2vw;
         width: 100%;
     }
-
-    .social-icon{
+    .social-icon {
         width: 3%;
         height: auto;
     }
 }
 
-@media (max-width: 631px){
-
+@media (max-width: 631px) {
     .location,
     .shopping,
     .blog,
     .fair-trade {
         height: 65vw;
     }
-
     .location > p > span,
     section > p > a {
         font-size: 1.5vw;
     }
-
     .fair-trade > p > a {
         font-size: 3vw;
     }
-
     .location > h3,
     .shopping > h3,
     .blog > h3 {
         width: 80%;
         font-size: 2vw;
     }
-
     .winter-surf > p,
     .relaxed > p,
     .alpaca_sweater > p,
@@ -409,24 +326,19 @@ p > img {
     .oils > p {
         display: none;
     }
-
     .location > p {
         width: 100%;
     }
-
-    .location > p > span{
+    .location > p > span {
         font-size: 2vw;
     }
-
-    section > p > a{
+    section > p > a {
         font-size: 2vw;
     }
-
     .blog-post-1 > p,
     .blog-post-2 > p {
         font-size: 1.5vw;
     }
-
     .winter-surf > h2,
     .relaxed > h2,
     .alpaca_sweater > h2,
@@ -437,11 +349,9 @@ p > img {
     .blog-post-2 > h2 {
         font-size: 1.75vw;
     }
-
     footer > div > p {
         display: none;
     }
-
     .winter-surf,
     .alpaca_sweater,
     .relaxed {
@@ -452,11 +362,9 @@ p > img {
         margin: 2em 0 0 0;
         padding: 2%;
     }
-
-    .winter-surf{
+    .winter-surf {
         padding-left: 6%;
     }
-
     .panara-shirt,
     .black-jacket,
     .oils {
@@ -467,91 +375,73 @@ p > img {
         margin: 0;
         padding: 2%;
     }
-
-    .panara-shirt{
+    .panara-shirt {
         padding-left: 6%;
     }
-
     .blog > div {
-    margin: 2em 0;
-    padding: 0 0 0 14%;
+        margin: 2em 0;
+        padding: 0 0 0 14%;
     }
-
     .blog-post-1 > p,
     .blog-post-2 > p {
         display: none;
     }
-
     .blog-post-1 > img,
     .blog-post-2 > img {
         width: 8em;
         height: auto;
     }
-
     .blog-post-1 > a,
     .blog-post-2 > a {
         font-size: 2vw;
         text-align: center;
     }
-
 }
 
 @media (max-width: 415px) {
-
     .location,
     .shopping {
         height: 75vw;
     }
-
-    .sub-title{
+    .sub-title {
         font-size: 2.5vw;
     }
-
-    .email-phone{
+    .email-phone {
         font-size: 2vw;
         width: 100%;
     }
-
     .social-icon,
-    .social-icon-1{
+    .social-icon-1 {
         width: 1em;
         height: auto;
     }
-
     .location > h3,
     .shopping > h3 {
         width: 50%;
         font-size: 2.5vw;
     }
-
     .blog > h3 {
         width: 85%;
         font-size: 2.5vw;
     }
-
     .blog-post-1,
     .blog-post-2 {
         width: 30vw;
     }
-
     .blog-post-1 {
         margin-right: 10%;
     }
-
     .blog > div {
         padding-left: 25%;
     }
-
     .blog-post-1 > p,
     .blog-post-2 > p {
         font-size: 2vw;
     }
-
     .blog > div {
-    margin: 2em 0;
-    padding: 0 0 0 14%;
+        margin: 2em 0;
+        padding: 0 0 0 14%;
     }
-
     .location > h3,
     .shopping > h3,
     .blog > h3 {
