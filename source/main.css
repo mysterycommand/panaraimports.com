@@ -51,8 +51,7 @@ h1 {
     font-family: zombiechecklistregular;
     font-size: 4vw;
     width: auto;
-    margin: 0 auto;
-    padding: 1em 0 0.5em 3.25em;
+    margin: 3% 0 1% 13%;
 }
 
 h2 {
@@ -63,9 +62,7 @@ h2 {
 
 h3 {
     width: 30vw;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0 0 1em 13%;
+    margin: 0 0 1% 13%;
     font-weight: normal;
     font-size: 1.5vw;
     font-family: cantarellregular;
@@ -103,14 +100,13 @@ header {
 li > img {
     height: 2vw;
     width: auto;
-    padding-right: 5%;
 }
 
 li {
     display: inline-block;
     color: #ffffff;
-    padding-right: 1em;
-    padding-bottom: 1em;
+    padding-right: 1%;
+    padding-bottom: 1%;
     font-family: cantarellregular;
 }
 
@@ -127,7 +123,7 @@ li:last-child {
     color: #ffffff;
     font-family: zombiechecklistregular;
     font-size: 10.5vw;
-    line-height: 0.9;
+    line-height: 0.9em;
     margin-top: 0.05em;
     margin-bottom: 0.25em;
 }
@@ -135,8 +131,8 @@ li:last-child {
 .sub-title {
     color: #ffffff;
     font-family: cantarellregular;
-    margin: 0 auto;
-    padding: 0.5em;
+    margin: 2% auto;
+    padding: 0;
     text-align: center;
     font-size: 1.75vw;
     line-height: 0.9;
@@ -188,13 +184,13 @@ section {
 
 .winter-surf {
     float: right;
-    margin-top: -21%;
+    margin-top: -19%;
     margin-right: 8%;
 }
 
 .panara-shirt {
     float: right;
-    margin-top: -21%;
+    margin-top: -19%;
     margin-right: 5%;
     display: block;
 }
@@ -220,8 +216,7 @@ section {
 }
 
 section > div {
-    margin: 2em 0;
-    padding: 0 0 0 25%;
+    margin: 5% 0 0 25%;
 }
 
 .blog-post-1 {
@@ -249,18 +244,19 @@ section > div {
     font-size: 3vw;
     width: 35vw;
     float: left;
-    margin: 22% 10% 0 0;
-    padding: 0 0 1em 5em;
+    margin: 22% 10% 0 13%;
+    padding: 0;
 }
 
 #fair-trade > img {
-    margin: 22% 0 10% 0;
+    margin: 22% 0 0 0;
     width: 28%;
     height: auto;
 }
 
 footer {
     text-align: center;
+    padding-bottom: 1%;
 }
 
 footer > div {
@@ -362,9 +358,7 @@ footer > div > p {
         margin: 2em 0 0 0;
         padding: 2%;
     }
-    .winter-surf {
-        padding-left: 6%;
-    }
+
     .panara-shirt,
     .black-jacket,
     .oils {
