@@ -41,6 +41,10 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+ul {
+        padding: 0;
+}
+
 section > p {
     font-size: 1vw;
     width: 40vw;
@@ -55,7 +59,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-family: cantarellregular;
     margin-bottom: 0;
 }
@@ -71,6 +75,7 @@ h3 {
 h4 {
     font-family: cantarellregular;
     text-decoration: underline;
+    font-size: 2vw;
 }
 
 h5 {
@@ -100,12 +105,13 @@ header {
 li > img {
     height: 2vw;
     width: auto;
+    box-shadow: none;
 }
 
 li {
     display: inline-block;
     color: #ffffff;
-    padding-right: 1%;
+    padding-right: 3%;
     padding-bottom: 1%;
     font-family: cantarellregular;
 }
@@ -171,6 +177,10 @@ section {
     width: 100%;
 }
 
+.container {
+    margin: 0;
+}
+
 .alpaca_sweater {
     margin: 6% 0 5% 25%;
     padding: 0;
@@ -190,7 +200,7 @@ section {
 
 .panara-shirt {
     float: right;
-    margin-top: -19%;
+    margin-top: -10%;
     margin-right: 5%;
     display: block;
 }
@@ -281,165 +291,120 @@ footer > div > p {
 }
 
 @media (max-width: 865px) {
+
     .sub-title {
         font-size: 2.5vw;
     }
-    .email-phone {
+    h2{
         font-size: 2vw;
-        width: 100%;
     }
-    .social-icon {
-        width: 3%;
+    h3{
+        font-size: 2vw;
+    }
+    h5{
+        font-size: 5vw;
+    }
+    p{
+        font-size: 1.5vw;
+
+    }
+    p > a {
+        font-size: 1.5vw;
+    }
+    p > span {
+        font-size: 1.5vw;
+    }
+    #fair-trade > p > a {
+        font-size: 3vw;
+    }
+    li > img {
+        width: 1.5em;
         height: auto;
+        margin-right: 5%;
     }
 }
 
-@media (max-width: 631px) {
-    .location,
-    .shopping,
-    .blog,
-    .fair-trade {
-        height: 65vw;
-    }
-    .location > p > span,
-    section > p > a {
-        font-size: 1.5vw;
-    }
-    .fair-trade > p > a {
-        font-size: 3vw;
-    }
-    .location > h3,
-    .shopping > h3,
-    .blog > h3 {
-        width: 80%;
-        font-size: 2vw;
-    }
-    .winter-surf > p,
-    .relaxed > p,
-    .alpaca_sweater > p,
-    .black-jacket > p,
-    .panara-shirt > p,
-    .oils > p {
-        display: none;
-    }
-    .location > p {
-        width: 100%;
-    }
-    .location > p > span {
-        font-size: 2vw;
-    }
-    section > p > a {
-        font-size: 2vw;
-    }
-    .blog-post-1 > p,
-    .blog-post-2 > p {
-        font-size: 1.5vw;
-    }
-    .winter-surf > h2,
-    .relaxed > h2,
-    .alpaca_sweater > h2,
-    .black-jacket > h2,
-    .panara-shirt > h2,
-    .oils > h2,
-    .blog-post-1 > h2,
-    .blog-post-2 > h2 {
-        font-size: 1.75vw;
+@media (max-width: 735px) {
+
+    #location,
+    #shopping,
+    #blog {
+        text-align: center;
+        height: auto;
     }
     footer > div > p {
         display: none;
     }
+    footer > div {
+        padding-bottom: 3%;
+    }
+    .blog-post-1,
+    .blog-post-2 {
+        margin-bottom: 10%;
+    }
+    .container {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
     .winter-surf,
     .alpaca_sweater,
-    .relaxed {
-        display: inline-block;
-        float: none;
-        text-align: center;
-        width: auto;
-        margin: 2em 0 0 0;
-        padding: 2%;
-    }
-
+    .relaxed,
     .panara-shirt,
     .black-jacket,
-    .oils {
+    .oils  {
         display: inline-block;
         float: none;
+        margin: 0 auto;
+        padding: 0;
         text-align: center;
-        width: auto;
-        margin: 0;
-        padding: 2%;
     }
-    .panara-shirt {
-        padding-left: 6%;
+    h1{
+        text-align: left;
     }
-    .blog > div {
-        margin: 2em 0;
-        padding: 0 0 0 14%;
+    h3 {
+        width: 80%;
+        text-align: left;
+    }
+    span{
+        display: none;
+    }
+
+    section > p {
+        display: inline-block;
+        width: 30%;
+        margin: 2% auto;
+        padding: 0;
+    }
+    p > a {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 415px) {
+
+    h1 {
+        font-size: 6vw;
+    }
+    h3 {
+        font-size: 3vw;
+    }
+    .blog-post-1,
+    .blog-post-2{
+        text-align: center;
+        margin: 0 0 10% 0;
+        width: 50%;
     }
     .blog-post-1 > p,
     .blog-post-2 > p {
         display: none;
     }
-    .blog-post-1 > img,
-    .blog-post-2 > img {
-        width: 8em;
-        height: auto;
-    }
-    .blog-post-1 > a,
-    .blog-post-2 > a {
-        font-size: 2vw;
+    #blog > div {
+        margin: 10% auto;
         text-align: center;
+    }
+    p > a {
+        font-size: 4em;
     }
 }
 
-@media (max-width: 415px) {
-    .location,
-    .shopping {
-        height: 75vw;
-    }
-    .sub-title {
-        font-size: 2.5vw;
-    }
-    .email-phone {
-        font-size: 2vw;
-        width: 100%;
-    }
-    .social-icon,
-    .social-icon-1 {
-        width: 1em;
-        height: auto;
-    }
-    .location > h3,
-    .shopping > h3 {
-        width: 50%;
-        font-size: 2.5vw;
-    }
-    .blog > h3 {
-        width: 85%;
-        font-size: 2.5vw;
-    }
-    .blog-post-1,
-    .blog-post-2 {
-        width: 30vw;
-    }
-    .blog-post-1 {
-        margin-right: 10%;
-    }
-    .blog > div {
-        padding-left: 25%;
-    }
-    .blog-post-1 > p,
-    .blog-post-2 > p {
-        font-size: 2vw;
-    }
-    .blog > div {
-        margin: 2em 0;
-        padding: 0 0 0 14%;
-    }
-    .location > h3,
-    .shopping > h3,
-    .blog > h3 {
-        width: 80%;
-        font-size: 2vw;
-    }
-}
