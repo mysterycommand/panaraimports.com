@@ -32,6 +32,7 @@ a {
 
 p {
     font-family: cantarellregular;
+    font-size: 1.5vw;
     margin-top: 0;
 }
 
@@ -80,7 +81,8 @@ h4 {
 
 h5 {
     font-family: zombiechecklistregular;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
+    margin: 5% auto;
 }
 
 section > p > a {
@@ -182,8 +184,10 @@ section {
 }
 
 .alpaca_sweater {
-    margin: 6% 0 5% 25%;
+    margin: 6% 0 6% 10%;
+    width: 50%;
     padding: 0;
+    text-align: center;
 }
 
 .relaxed {
@@ -206,10 +210,10 @@ section {
 }
 
 .black-jacket {
-    margin: -6% 0 5% 28%;
-    position: relative;
-    display: block;
+    margin: 6% 0 6% 10%;
+    width: 50%;
     padding: 0;
+    text-align: center;
 }
 
 .black-jacket > img {
@@ -306,13 +310,13 @@ footer > div > p {
     }
     p{
         font-size: 1.5vw;
-
     }
     p > a {
         font-size: 1.5vw;
     }
     p > span {
         font-size: 1.5vw;
+        padding-left: 2%;
     }
     #fair-trade > p > a {
         font-size: 3vw;
@@ -321,6 +325,10 @@ footer > div > p {
         width: 1.5em;
         height: auto;
         margin-right: 5%;
+    }
+    .winter-surf,
+    .panara-shirt {
+        margin-top: -25%;
     }
 }
 
@@ -347,6 +355,10 @@ footer > div > p {
         margin-top: 10%;
         margin-bottom: 10%;
     }
+
+    .black-jacket {
+        width: 40%;
+    }
     .winter-surf,
     .alpaca_sweater,
     .relaxed,
@@ -372,7 +384,7 @@ footer > div > p {
 
     section > p {
         display: inline-block;
-        width: 30%;
+        width: 40%;
         margin: 2% auto;
         padding: 0;
     }
