@@ -278,7 +278,7 @@ footer > div {
     text-align: center;
 }
 
-footer > div > img {
+footer > div > a > img {
     height: 7em;
     width: auto;
     margin: 0 auto;
