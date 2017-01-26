@@ -204,8 +204,8 @@ section {
 
 .panara-shirt {
     float: right;
-    margin-top: -10%;
-    margin-right: 5%;
+    margin-top: -20%;
+    margin-right: 8%;
     display: block;
 }
 
@@ -223,10 +223,8 @@ section {
 
 .oils {
     float: right;
-    margin-top: -4%;
+    margin-top: -15%;
     margin-right: 5%;
-    position: relative;
-    display: block;
 }
 
 section > div {
@@ -350,13 +348,18 @@ footer > div > p {
     .blog-post-2 {
         margin-bottom: 10%;
     }
+    .blog-post-1 > h4 > a,
+    .blog-post-2 > h4 > a {
+        font-size: 2vw;
+    }
     .container {
         width: 100%;
         margin-top: 10%;
         margin-bottom: 10%;
     }
 
-    .black-jacket {
+    .black-jacket,
+    .alpaca_sweater {
         width: 40%;
     }
     .winter-surf,
