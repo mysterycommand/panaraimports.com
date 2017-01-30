@@ -328,6 +328,10 @@ footer > div > p {
     .panara-shirt {
         margin-top: -25%;
     }
+    .blog-post-1 > p,
+    .blog-post-2 > p {
+        font-size: 1.75vw;
+    }
 }
 
 @media (max-width: 735px) {
@@ -394,6 +398,10 @@ footer > div > p {
     p > a {
         font-size: 2em;
     }
+    .blog-post-1 > p,
+    .blog-post-2 > p {
+        display: none;
+    }
 }
 
 @media (max-width: 415px) {
@@ -409,10 +417,6 @@ footer > div > p {
         text-align: center;
         margin: 0 0 10% 0;
         width: 50%;
-    }
-    .blog-post-1 > p,
-    .blog-post-2 > p {
-        display: none;
     }
     #blog > div {
         margin: 10% auto;
