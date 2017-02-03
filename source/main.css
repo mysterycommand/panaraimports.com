@@ -73,6 +73,11 @@ h3 {
     font-family: cantarellregular;
 }
 
+h3 > a {
+    color: #000000;
+    font-family: cantarellregular;
+}
+
 h4 {
     font-family: cantarellregular;
     text-decoration: underline;
@@ -104,7 +109,7 @@ header {
     text-align: center;
 }
 
-li > img {
+li > a > img {
     height: 2vw;
     width: auto;
     box-shadow: none;
