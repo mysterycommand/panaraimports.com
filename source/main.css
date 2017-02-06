@@ -239,6 +239,7 @@ section > div {
 .blog-post-1 {
     float: left;
     width: 20vw;
+    margin-top: 15%;
     margin-right: 25%;
     display: inline;
     text-align: left;
@@ -248,6 +249,7 @@ section > div {
     float: left;
     width: 20vw;
     display: inline;
+    margin-top: 15%;
     text-align: left;
 }
 
