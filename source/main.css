@@ -279,14 +279,14 @@ footer {
 }
 
 footer > div {
-    width: 25%;
+    width: 33%;
     margin: 0;
     float: left;
     text-align: center;
 }
 
 footer > div > a > img {
-    height: 7em;
+    height: 9em;
     width: auto;
     margin: 0 auto;
 }
