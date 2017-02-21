@@ -4,7 +4,8 @@ import gimagemin from 'gulp-imagemin';
 export default () => {
     return gulp
         .src([
-            'source/images/*',
+            'source/assets/**/*',
+            'source/images/**/*',
         ], {
             base: 'source',
         })
